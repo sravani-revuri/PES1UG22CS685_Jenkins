@@ -13,7 +13,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                build 'PES2UG22CS685-1'   // Replace with your actual job name
+                build 'PES1UG22CS685-1'   // Replace with your actual job name
                 sh 'g++ main.cpp -o output'  // Compiling your C++ program
             }
         }
